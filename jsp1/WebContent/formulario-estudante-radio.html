@@ -1,0 +1,40 @@
+<html>
+<head><title>Formuláro de registo de estudantes</title></head>
+<body>
+<form action="resposta-estudantes-radio.jsp">
+
+Primeiro nome: <input type="text" name="primeironome"/>
+
+<br/>
+
+Sobrenome: <input type="text" name="sobrenome"/>
+
+<br/>
+
+<select name="pais">
+<option>Argentina</option>
+<option>Brasil</option>
+<option>Colômbia</option>
+<option>Peru</option>
+<option>Venezuela</option>
+</select>
+
+<br/><br/>
+
+Língua de programação dominante:
+
+	<input type="radio" name="linguaPrograma" value="Java"> Java
+	
+	<input type="radio" name="linguaPrograma" value="Ruby"> Ruby
+	
+	<input type="radio" name="linguaPrograma" value="C"> C
+		
+	<input type="radio" name="linguaPrograma" value="Python"> Python
+
+<br/><br/>
+
+<input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>
